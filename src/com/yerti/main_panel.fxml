@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="332.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yerti.Controller">
+   <children>
+      <AnchorPane prefHeight="333.0" prefWidth="649.0" style="-fx-background-color: #3D4956;">
+         <children>
+            <Button id="selectModpack" fx:id="selectModpack" layoutX="207.0" layoutY="118.0" mnemonicParsing="false" onMouseClicked="#onSelectModpackClicked" prefHeight="37.0" prefWidth="255.0" style="-fx-background-color: #8c14fc;" text="SELECT MODPACK DIRECTORY" textFill="#e0e0e0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Label fx:id="pathbox" layoutX="111.0" layoutY="194.0" prefHeight="28.0" prefWidth="442.0" style="-fx-border-color: #e0e0e0; -fx-border-width: 1; -fx-border-style: solid;" textFill="#e0e0e0" />
+            <Button id="confirm" fx:id="confirm" layoutX="369.0" layoutY="256.0" mnemonicParsing="false" onMouseClicked="#onConfirmClicked" prefHeight="37.0" prefWidth="152.0" style="-fx-background-color: #00b16a;" text="CONFIRM" textFill="#e0e0e0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button id="quit" fx:id="quit" layoutX="149.0" layoutY="256.0" mnemonicParsing="false" onMouseClicked="#onExitClicked" prefHeight="37.0" prefWidth="152.0" style="-fx-background-color: #d64541;" text="QUIT" textFill="#e0e0e0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Line endX="106.0" layoutX="554.0" layoutY="80.0" startX="-554.0" stroke="#3d4956" strokeWidth="6.0" />
+            <Label layoutX="70.0" layoutY="36.0" prefHeight="47.0" prefWidth="521.0" text="FACTORIO MODPACK SWITCHER" textFill="#e0e0e0">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
